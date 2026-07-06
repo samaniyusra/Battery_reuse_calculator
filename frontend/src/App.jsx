@@ -9,7 +9,7 @@ import {
   FaRecycle,
 } from "react-icons/fa";
 
-const API = "https://battery-reuse-calculator.onrender.com/api/calculate";
+const API = "http://localhost:5000/api/calculate";
 
 export default function App() {
   const [battery, setBattery] = useState("NMC");
@@ -22,7 +22,7 @@ export default function App() {
   useEffect(() => {
     const fetchComposition = async () => {
       try {
-        const res = await axios.get("https://battery-reuse-calculator.onrender.com/api/composition");
+        const res = await axios.get("http://localhost:5000/api/composition");
 
         setCompositionData(res.data.data);
       } catch (err) {
