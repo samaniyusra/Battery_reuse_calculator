@@ -9,7 +9,7 @@ import {
   FaRecycle,
 } from "react-icons/fa";
 
-const API = "https://battery-reuse-calculator.onrender.com/api/calculate";
+const API = "https://battery-reuse-calculator.onrender.com";
 
 export default function App() {
   const [battery, setBattery] = useState("NMC");
