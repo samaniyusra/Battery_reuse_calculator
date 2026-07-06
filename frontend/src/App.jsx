@@ -9,7 +9,7 @@ import {
   FaRecycle,
 } from "react-icons/fa";
 
-const API = "https://battery-reuse-calculator.onrender.com";
+const API = "https://battery-reuse-calculator.onrender.com/api/calculate";
 
 export default function App() {
   const [battery, setBattery] = useState("NMC");
@@ -41,7 +41,7 @@ export default function App() {
       let response;
 
       if (mode === "battery") {
-        response = await axios.post(`${API}/api/battery-data`, {
+        response = await axios.post(`${API}/battery`, {
           batteryType: battery,
           batteryWeight: 1,
         });
