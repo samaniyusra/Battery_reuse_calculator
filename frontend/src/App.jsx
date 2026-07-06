@@ -41,7 +41,7 @@ export default function App() {
       let response;
 
       if (mode === "battery") {
-        response = await axios.post(`${API}/battery-data`, {
+        response = await axios.post(`${API}/api/battery-data`, {
           batteryType: battery,
           batteryWeight: 1,
         });
