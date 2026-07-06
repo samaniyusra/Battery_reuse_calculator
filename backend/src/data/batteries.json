@@ -1,0 +1,205 @@
+{
+  "LFP": {
+    "name": "Lithium Iron Phosphate",
+    "materials": {
+      "Lithium": {
+        "min": 20,
+        "max": 30,
+        "avg": 25,
+        "unit": "g/kg"
+      },
+      "Copper": {
+        "min": 80,
+        "max": 120,
+        "avg": 100,
+        "unit": "g/kg"
+      },
+      "Aluminium": {
+        "min": 60,
+        "max": 100,
+        "avg": 80,
+        "unit": "g/kg"
+      },
+      "Graphite": {
+        "min": 120,
+        "max": 180,
+        "avg": 150,
+        "unit": "g/kg"
+      },
+      "Iron": {
+        "min": 150,
+        "max": 250,
+        "avg": 200,
+        "unit": "g/kg"
+      }
+
+      
+    }
+  },
+
+  "NMC": {
+    "name": "Nickel Manganese Cobalt",
+    "materials": {
+      "Lithium": {
+        "min": 20,
+        "max": 40,
+        "avg": 30,
+        "unit": "g/kg"
+      },
+      "Copper": {
+        "min": 80,
+        "max": 120,
+        "avg": 100,
+        "unit": "g/kg"
+      },
+      "Aluminium": {
+        "min": 50,
+        "max": 100,
+        "avg": 75,
+        "unit": "g/kg"
+      },
+      "Graphite": {
+        "min": 120,
+        "max": 180,
+        "avg": 150,
+        "unit": "g/kg"
+      },
+      "Nickel": {
+        "min": 50,
+        "max": 120,
+        "avg": 85,
+        "unit": "g/kg"
+      },
+      "Cobalt": {
+        "min": 30,
+        "max": 70,
+        "avg": 50,
+        "unit": "g/kg"
+      },
+      "Manganese": {
+        "min": 20,
+        "max": 60,
+        "avg": 40,
+        "unit": "g/kg"
+      }
+    }
+  },
+
+  "LCO": {
+    "name": "Lithium Cobalt Oxide",
+    "materials": {
+      "Lithium": {
+        "min": 30,
+        "max": 50,
+        "avg": 40,
+        "unit": "g/kg"
+      },
+      "Copper": {
+        "min": 80,
+        "max": 120,
+        "avg": 100,
+        "unit": "g/kg"
+      },
+      "Aluminium": {
+        "min": 50,
+        "max": 100,
+        "avg": 75,
+        "unit": "g/kg"
+      },
+      "Graphite": {
+        "min": 120,
+        "max": 180,
+        "avg": 150,
+        "unit": "g/kg"
+      },
+      "Cobalt": {
+        "min": 150,
+        "max": 250,
+        "avg": 200,
+        "unit": "g/kg"
+      }
+     
+    }
+  },
+
+  "LMO": {
+    "name": "Lithium Manganese Oxide",
+    "materials": {
+      "Lithium": {
+        "min": 20,
+        "max": 40,
+        "avg": 30,
+        "unit": "g/kg"
+      },
+      "Copper": {
+        "min": 80,
+        "max": 120,
+        "avg": 100,
+        "unit": "g/kg"
+      },
+      "Aluminium": {
+        "min": 50,
+        "max": 100,
+        "avg": 75,
+        "unit": "g/kg"
+      },
+      "Graphite": {
+        "min": 120,
+        "max": 180,
+        "avg": 150,
+        "unit": "g/kg"
+      },
+      "Manganese": {
+        "min": 150,
+        "max": 250,
+        "avg": 200,
+        "unit": "g/kg"
+      }
+  },
+
+  "NCA": {
+    "name": "Nickel Cobalt Aluminium",
+    "materials": {
+      "Lithium": {
+        "min": 20,
+        "max": 40,
+        "avg": 30,
+        "unit": "g/kg"
+      },
+      "Copper": {
+        "min": 80,
+        "max": 120,
+        "avg": 100,
+        "unit": "g/kg"
+      },
+      "Aluminium": {
+        "min": 50,
+        "max": 100,
+        "avg": 75,
+        "unit": "g/kg"
+      },
+      "Graphite": {
+        "min": 120,
+        "max": 180,
+        "avg": 150,
+        "unit": "g/kg"
+      },
+      "Nickel": {
+        "min": 80,
+        "max": 150,
+        "avg": 115,
+        "unit": "g/kg"
+      },
+      "Cobalt": {
+        "min": 30,
+        "max": 80,
+        "avg": 55,
+        "unit": "g/kg"
+      }
+     
+    }
+  }
+}
+
+    }
+ 
