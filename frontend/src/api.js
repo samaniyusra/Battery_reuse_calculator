@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://battery-reuse-calculator.onrender.com/";
 
 export const getPrices = async () => {
   const res = await fetch(`${BASE_URL}/api/calculate/prices`);
