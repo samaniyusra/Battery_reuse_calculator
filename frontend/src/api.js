@@ -6,7 +6,7 @@ export const getPrices = async () => {
 };
 
 export const calculateBattery = async (batteryType, batteryWeight) => {
-  const res = await fetch(`${BASE_URL}/api/calculate/battery`, {
+  const res = await fetch(`${BASE_URL}/api/calculate/battery-data`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ batteryType, batteryWeight }),
