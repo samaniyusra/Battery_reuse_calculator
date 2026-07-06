@@ -10,16 +10,7 @@ import batteryRoutes from "./routes/batteyRoutes.js";
 dotenv.config();
 
 const app = express();
-app.use(
-  cors({
-    origin: [
-      "http://localhost:5173",
-      "https://battery-reuse-calculator-m5opg8ml1-samani-yusrahs-projects.vercel.app",
-    ],
-    methods: ["GET", "POST", "OPTIONS"],
-    allowedHeaders: ["Content-Type"],
-  })
-);
+app.use(cors());
 
 // app.options("*", cors());
 app.use(express.json());
