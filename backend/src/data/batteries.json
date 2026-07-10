@@ -1,205 +1,73 @@
 {
-  "LFP": {
-    "name": "Lithium Iron Phosphate",
+  "mobile": {
+    "name": "Mobile Phone Battery",
+    "batteryWeight": 50,
+    "unit": "g",
     "materials": {
-      "Lithium": {
-        "min": 20,
-        "max": 30,
-        "avg": 25,
-        "unit": "g/kg"
+      "Graphite": {
+        "presentPerKg": 220,
+        "recoveredPerKg": 154
       },
       "Copper": {
-        "min": 80,
-        "max": 120,
-        "avg": 100,
-        "unit": "g/kg"
+        "presentPerKg": 130,
+        "recoveredPerKg": 127.4
       },
       "Aluminium": {
-        "min": 60,
-        "max": 100,
-        "avg": 80,
-        "unit": "g/kg"
+        "presentPerKg": 100,
+        "recoveredPerKg": 95
       },
-      "Graphite": {
-        "min": 120,
-        "max": 180,
-        "avg": 150,
-        "unit": "g/kg"
+      "Cobalt": {
+        "presentPerKg": 90,
+        "recoveredPerKg": 88.2
       },
-      "Iron": {
-        "min": 150,
-        "max": 250,
-        "avg": 200,
-        "unit": "g/kg"
-      }
-
-      
-    }
-  },
-
-  "NMC": {
-    "name": "Nickel Manganese Cobalt",
-    "materials": {
       "Lithium": {
-        "min": 20,
-        "max": 40,
-        "avg": 30,
-        "unit": "g/kg"
-      },
-      "Copper": {
-        "min": 80,
-        "max": 120,
-        "avg": 100,
-        "unit": "g/kg"
-      },
-      "Aluminium": {
-        "min": 50,
-        "max": 100,
-        "avg": 75,
-        "unit": "g/kg"
-      },
-      "Graphite": {
-        "min": 120,
-        "max": 180,
-        "avg": 150,
-        "unit": "g/kg"
+        "presentPerKg": 10,
+        "recoveredPerKg": 9
       },
       "Nickel": {
-        "min": 50,
-        "max": 120,
-        "avg": 85,
-        "unit": "g/kg"
-      },
-      "Cobalt": {
-        "min": 30,
-        "max": 70,
-        "avg": 50,
-        "unit": "g/kg"
+        "presentPerKg": 40,
+        "recoveredPerKg": 38
       },
       "Manganese": {
-        "min": 20,
-        "max": 60,
-        "avg": 40,
-        "unit": "g/kg"
+        "presentPerKg": 20,
+        "recoveredPerKg": 18
       }
     }
   },
 
-  "LCO": {
-    "name": "Lithium Cobalt Oxide",
+  "laptop": {
+    "name": "Laptop Battery",
+    "batteryWeight": 350,
+    "unit": "g",
     "materials": {
-      "Lithium": {
-        "min": 30,
-        "max": 50,
-        "avg": 40,
-        "unit": "g/kg"
+      "Graphite": {
+        "presentPerKg": 220,
+        "recoveredPerKg": 154
       },
       "Copper": {
-        "min": 80,
-        "max": 120,
-        "avg": 100,
-        "unit": "g/kg"
+        "presentPerKg": 130,
+        "recoveredPerKg": 127.4
       },
       "Aluminium": {
-        "min": 50,
-        "max": 100,
-        "avg": 75,
-        "unit": "g/kg"
-      },
-      "Graphite": {
-        "min": 120,
-        "max": 180,
-        "avg": 150,
-        "unit": "g/kg"
+        "presentPerKg": 100,
+        "recoveredPerKg": 95
       },
       "Cobalt": {
-        "min": 150,
-        "max": 250,
-        "avg": 200,
-        "unit": "g/kg"
-      }
-     
-    }
-  },
-
-  "LMO": {
-    "name": "Lithium Manganese Oxide",
-    "materials": {
+        "presentPerKg": 90,
+        "recoveredPerKg": 88.2
+      },
       "Lithium": {
-        "min": 20,
-        "max": 40,
-        "avg": 30,
-        "unit": "g/kg"
-      },
-      "Copper": {
-        "min": 80,
-        "max": 120,
-        "avg": 100,
-        "unit": "g/kg"
-      },
-      "Aluminium": {
-        "min": 50,
-        "max": 100,
-        "avg": 75,
-        "unit": "g/kg"
-      },
-      "Graphite": {
-        "min": 120,
-        "max": 180,
-        "avg": 150,
-        "unit": "g/kg"
-      },
-      "Manganese": {
-        "min": 150,
-        "max": 250,
-        "avg": 200,
-        "unit": "g/kg"
-      }
-  },
-
-  "NCA": {
-    "name": "Nickel Cobalt Aluminium",
-    "materials": {
-      "Lithium": {
-        "min": 20,
-        "max": 40,
-        "avg": 30,
-        "unit": "g/kg"
-      },
-      "Copper": {
-        "min": 80,
-        "max": 120,
-        "avg": 100,
-        "unit": "g/kg"
-      },
-      "Aluminium": {
-        "min": 50,
-        "max": 100,
-        "avg": 75,
-        "unit": "g/kg"
-      },
-      "Graphite": {
-        "min": 120,
-        "max": 180,
-        "avg": 150,
-        "unit": "g/kg"
+        "presentPerKg": 10,
+        "recoveredPerKg": 9
       },
       "Nickel": {
-        "min": 80,
-        "max": 150,
-        "avg": 115,
-        "unit": "g/kg"
+        "presentPerKg": 40,
+        "recoveredPerKg": 38
       },
-      "Cobalt": {
-        "min": 30,
-        "max": 80,
-        "avg": 55,
-        "unit": "g/kg"
+      "Manganese": {
+        "presentPerKg": 20,
+        "recoveredPerKg": 18
       }
-     
     }
   }
 }
-
-    }
- 
