@@ -8,7 +8,7 @@ import {
   FaChartLine,
 } from "react-icons/fa";
 
-const API = "http://localhost:5000/api/calculate";
+const API = "https://battery-reuse-calculator.onrender.com/api/calculate";
 
 export default function App() {
   const [deviceType, setDeviceType] = useState("mobile");
@@ -24,7 +24,7 @@ export default function App() {
     const fetchComposition = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/composition"
+          "https://battery-reuse-calculator.onrender.com/api/composition"
         );
 
         setCompositionData(res.data.data);
