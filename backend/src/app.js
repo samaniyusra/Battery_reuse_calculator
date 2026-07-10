@@ -10,13 +10,7 @@ import batteryRoutes from "./routes/batteyRoutes.js";
 dotenv.config();
 
 const app = express();
-app.use(
-    cors({
-        origin: true,
-        credentials: true,
-    })
-);
-// app.options("*", cors());
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
